@@ -1,8 +1,7 @@
 import { useState } from "react";
 import BuildPanel from "./components/BuildPanel";
 import Scene3D from "./components/Scene3D";
-import "./app.css";
-
+import "./App.css";
 export default function App() {
   const [selected, setSelected] = useState("O"); // start with Oxygen
 
